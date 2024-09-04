@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+body {
+  background: url("https://img.freepik.com/free-vector/detailed-jungle-background_23-2148953379.jpg?t=st=1725437999~exp=1725441599~hmac=25a526fdfa63a5d9261fcbc8dc272b0e937fe545867660e8f9e4566d6ac77870&w=1060") no-repeat center center fixed;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: "Hubballi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+.gmovers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.gmovers .regbtn {
+  margin: 0 25px 0 0;
+  width: 190px;
+  padding: 13px 0px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.gmovers .regbtn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  background-color: #332200;
+}
+
+.gm {
+  text-align: start;
+  margin: 30px 20px;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1000;
+}
+
+.bold {
+  color: #ffda34;
+  font-weight: 900;
+  margin: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../src/component/images/forest.png') no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.movement {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.movement1 {
+  display: block;
+  width: 100%; /* Full width on smaller screens */
+  max-width: 200px; /* Limit width on larger screens */
+}
+.socials{
+  font-size: 20px;
+  display: flex;
+  color: #ffda34;
+  gap: 3em;
+  margin-top: 30px;
+}
+.footer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.833) 25%, rgba(0, 0, 0, 0) 100%);
+  color: white;
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  position: fixed;
+  bottom: 0; /* Fix it to the bottom of the viewport */
+  left: 0;
+  width: 100vw;
+  height: 100px; /* Ensure it spans the full viewport width */
+  font-size: 14px;
+  z-index: 1000; /* Ensure it's above all other content */
+}
+
+
+.footer p {
+  margin: 0;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .gm {
+    font-size: 2.5em; /* Smaller font size on tablets */
+  }
+
+  .gmovers {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0; /* Adjust padding for more balanced layout */
+  }
+
+  .gmovers .regbtn {
+    margin: 10px 0; /* Add margin for spacing in column layout */
+    width: 80%; /* Responsive width */
+    padding: 12px 0; /* Adjust padding for consistency */
+  }
+}
+
+@media (max-width: 480px) {
+  .gm {
+    font-size: 2em; /* Even smaller font size on mobile */
+    text-align: center;
+    margin: 20px 0; /* Adjust margin for spacing */
+  }
+
+  .gmovers {
+    padding: 10px 20px; /* Adjust padding to fit smaller screens */
+  }
+
+  .gmovers .regbtn {
+    width: 90%; /* Almost full width on mobile */
+    padding: 10px 0; /* Slightly smaller padding for compact look */
+    margin: 15px 0; /* Add margin for spacing */
+  }
+}

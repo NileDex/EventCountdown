@@ -1,0 +1,9 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the footer sticks to the bottom */
+    margin: 0; /* Remove any default margin */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+ 
