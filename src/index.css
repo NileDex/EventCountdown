@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
 body {
-  background: url("https://img.freepik.com/free-vector/detailed-jungle-background_23-2148953379.jpg?t=st=1725437999~exp=1725441599~hmac=25a526fdfa63a5d9261fcbc8dc272b0e937fe545867660e8f9e4566d6ac77870&w=1060") no-repeat center center fixed;
+  background: url("../src/component/images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   padding: 0;
   margin: 0;
