@@ -137,8 +137,18 @@
     }
 
     .sideimg {
-        width: 100px;
+        width: 130px;
         z-index: -1;
         margin-top: 50%;
+    }
+    .sideimg:first-of-type {
+        left: 20px;
+        margin-top: -30%;
+    }
+    
+    .sideimg:last-of-type {
+        right: 30px;
+        z-index: 1;
+        
     }
 }

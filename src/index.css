@@ -82,9 +82,11 @@ body {
 .socials{
   font-size: 20px;
   display: flex;
-  color: #ffda34;
-  gap: 3em;
+  gap: 2em;
   margin-top: 30px;
+}
+.socials a{
+  color: #ffda34;
 }
 .footer {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.833) 25%, rgba(0, 0, 0, 0) 100%);
@@ -135,8 +137,8 @@ body {
   }
 
   .gmovers .regbtn {
-    width: 90%; /* Almost full width on mobile */
-    padding: 10px 0; /* Slightly smaller padding for compact look */
-    margin: 15px 0; /* Add margin for spacing */
+    width: 90%; 
+    padding: 10px 0; 
+    margin: 15px 0; 
   }
 }

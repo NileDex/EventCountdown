@@ -17,8 +17,8 @@ function App() {
 
         <p>Join Our Social</p>
         <div className='socials'>
-          <a href=''><FaDiscord /></a>
-          <a href=''><BsTwitterX /></a>
+          <a href='https://discord.gg/22BtTBrR'><FaDiscord /></a>
+          <a href='https://twitter.com/GorillaMoverz'><BsTwitterX /></a>
           <a href=''><FaTelegramPlane /></a>
         </div>
       </footer>
