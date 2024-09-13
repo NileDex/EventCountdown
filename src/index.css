@@ -79,6 +79,21 @@ body {
   width: 100%; /* Full width on smaller screens */
   max-width: 200px; /* Limit width on larger screens */
 }
+.date{
+  text-align: center;
+  margin: 0;
+}
+.date h2{
+  
+  color:  #ffda34;
+  font-size: 25px;
+  font-weight: 800;
+}
+.date h4{
+  margin: 0;
+  font-size: 35px;
+  font-weight: 800;
+}
 .socials{
   font-size: 20px;
   display: flex;
